@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -Wall -rdynamic CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o -o DH2323SkeletonSDL2  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL2.so /usr/local/lib/libSDL2main.a 
