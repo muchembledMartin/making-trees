@@ -182,7 +182,6 @@ class Camera{
          }
          if(!p1.borders and !p2.borders) return true;
 
-
          glm::vec2 diff;
 
          for(int i(0); i < 4; i++){
