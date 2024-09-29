@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -Wall -rdynamic CMakeFiles/MakingTrees.dir/Main.cpp.o CMakeFiles/MakingTrees.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o -o MakingTrees  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL2.so /usr/local/lib/libSDL2main.a 

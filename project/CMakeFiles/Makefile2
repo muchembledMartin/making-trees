@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/martin/Documents/cours/BA6/making-trees/project
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DH2323SkeletonSDL2.dir/all
+all: CMakeFiles/MakingTrees.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DH2323SkeletonSDL2.dir/clean
+clean: CMakeFiles/MakingTrees.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DH2323SkeletonSDL2.dir
+# Target rules for target CMakeFiles/MakingTrees.dir
 
 # All Build rule for target.
-CMakeFiles/DH2323SkeletonSDL2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/martin/Documents/cours/BA6/making-trees/project/CMakeFiles --progress-num=1,2,3 "Built target DH2323SkeletonSDL2"
-.PHONY : CMakeFiles/DH2323SkeletonSDL2.dir/all
+CMakeFiles/MakingTrees.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/martin/Documents/cours/BA6/making-trees/project/CMakeFiles --progress-num=1,2,3 "Built target MakingTrees"
+.PHONY : CMakeFiles/MakingTrees.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DH2323SkeletonSDL2.dir/rule: cmake_check_build_system
+CMakeFiles/MakingTrees.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/Documents/cours/BA6/making-trees/project/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DH2323SkeletonSDL2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MakingTrees.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/Documents/cours/BA6/making-trees/project/CMakeFiles 0
-.PHONY : CMakeFiles/DH2323SkeletonSDL2.dir/rule
+.PHONY : CMakeFiles/MakingTrees.dir/rule
 
 # Convenience name for target.
-DH2323SkeletonSDL2: CMakeFiles/DH2323SkeletonSDL2.dir/rule
-.PHONY : DH2323SkeletonSDL2
+MakingTrees: CMakeFiles/MakingTrees.dir/rule
+.PHONY : MakingTrees
 
 # clean rule for target.
-CMakeFiles/DH2323SkeletonSDL2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/clean
-.PHONY : CMakeFiles/DH2323SkeletonSDL2.dir/clean
+CMakeFiles/MakingTrees.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/clean
+.PHONY : CMakeFiles/MakingTrees.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

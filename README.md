@@ -59,7 +59,6 @@ n        -> change NUM_PAD_N to N
 
 (more in Tree.h)
 
-
 ##### Cosmetic parameters
 
 The colors that are used to draw the different generation steps from 0 to the number of steps, they can also be selected when using monochromatic mode. Uses an rgb int format "#rrggbb". (in main)

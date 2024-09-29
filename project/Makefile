@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DH2323SkeletonSDL2
+# Target rules for targets named MakingTrees
 
 # Build rule for target.
-DH2323SkeletonSDL2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DH2323SkeletonSDL2
-.PHONY : DH2323SkeletonSDL2
+MakingTrees: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MakingTrees
+.PHONY : MakingTrees
 
 # fast build rule for target.
-DH2323SkeletonSDL2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/build
-.PHONY : DH2323SkeletonSDL2/fast
+MakingTrees/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/build
+.PHONY : MakingTrees/fast
 
 Main.o: Main.cpp.o
 .PHONY : Main.o
 
 # target to build an object file
 Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/Main.cpp.o
 .PHONY : Main.cpp.o
 
 Main.i: Main.cpp.i
@@ -142,7 +142,7 @@ Main.i: Main.cpp.i
 
 # target to preprocess a source file
 Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/Main.cpp.i
 .PHONY : Main.cpp.i
 
 Main.s: Main.cpp.s
@@ -150,7 +150,7 @@ Main.s: Main.cpp.s
 
 # target to generate assembly for a file
 Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
 SDL2Auxiliary/SDL2Auxiliary.o: SDL2Auxiliary/SDL2Auxiliary.cpp.o
@@ -158,7 +158,7 @@ SDL2Auxiliary/SDL2Auxiliary.o: SDL2Auxiliary/SDL2Auxiliary.cpp.o
 
 # target to build an object file
 SDL2Auxiliary/SDL2Auxiliary.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o
 .PHONY : SDL2Auxiliary/SDL2Auxiliary.cpp.o
 
 SDL2Auxiliary/SDL2Auxiliary.i: SDL2Auxiliary/SDL2Auxiliary.cpp.i
@@ -166,7 +166,7 @@ SDL2Auxiliary/SDL2Auxiliary.i: SDL2Auxiliary/SDL2Auxiliary.cpp.i
 
 # target to preprocess a source file
 SDL2Auxiliary/SDL2Auxiliary.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.i
 .PHONY : SDL2Auxiliary/SDL2Auxiliary.cpp.i
 
 SDL2Auxiliary/SDL2Auxiliary.s: SDL2Auxiliary/SDL2Auxiliary.cpp.s
@@ -174,7 +174,7 @@ SDL2Auxiliary/SDL2Auxiliary.s: SDL2Auxiliary/SDL2Auxiliary.cpp.s
 
 # target to generate assembly for a file
 SDL2Auxiliary/SDL2Auxiliary.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MakingTrees.dir/build.make CMakeFiles/MakingTrees.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.s
 .PHONY : SDL2Auxiliary/SDL2Auxiliary.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DH2323SkeletonSDL2"
+	@echo "... MakingTrees"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"

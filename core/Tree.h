@@ -71,9 +71,9 @@ class Tree{
       void setDefaultConfig(){
          hasTrunck = false;
          steps = 5;
-         samplesCounts = {2, 30, 200, 400, 800};
-         borderSizes = {15, 5, 5, 5};
-         borderKeptProportion = {0.7,0.6, 0.6, 0.6};
+         samplesCounts = {6, 100, 200, 400, 800};
+         borderSizes = {10, 4, 4, 4};
+         borderKeptProportion = {0.5,0.6, 0.6, 0.6};
          guidingVectorsComputers = {
             computeGuidingVectorsDefault(-3*PI/180.f), 
             computeGuidingVectorsDefault(-3*PI/180.f), 
@@ -86,7 +86,7 @@ class Tree{
          reversedProportions = {false, false, false, false};
          defaultSrcVectors = {glm::vec3(0.f,1.f,0.f), glm::vec3(0.f,1.f,0.f), glm::vec3(0.f,1.f,0.f), glm::vec3(0.f,1.f,0.f), glm::vec3(0.f,1.f,0.f)};
          firstSampler = [&](int n, std::vector<int>& destinations)->void {
-            sampleFromHalfAnulus(glm::vec3(0,50,0), 20.f, 25.f, n, destinations);
+            sampleFromHalfAnulus(glm::vec3(0,50,0), 25.f, 35.f, n, destinations);
          };
       }
 

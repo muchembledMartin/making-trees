@@ -53,11 +53,12 @@ int main( int argc, char* argv[] ){
 
    Tree tree = Tree();
    tree.initializeGraph();
+   camera.moveRightConstrained();
 
-   // tree.setDefaultConfig();
-   //tree.setExample2Config();
-   //tree.setExample3Config();
-   tree.setExample4Config();
+   tree.setDefaultConfig();
+   // tree.setExample2Config();
+   // tree.setExample3Config();
+   // tree.setExample4Config();
 
    tree.generateTree(treeMeshes);
 

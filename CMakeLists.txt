@@ -21,11 +21,11 @@ include_directories(
 
 )
 
-add_executable(DH2323SkeletonSDL2
+add_executable(MakingTrees
   Main.cpp
   ${CMAKE_SOURCE_DIR}/SDL2Auxiliary/SDL2Auxiliary.cpp
 )
 
-target_link_libraries(DH2323SkeletonSDL2
+target_link_libraries(MakingTrees
   ${SDL2_LIBRARIES}
 )
