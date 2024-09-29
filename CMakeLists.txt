@@ -18,10 +18,11 @@ include_directories(
   ${SDL2_INCLUDE_DIRS}
   ${CMAKE_SOURCE_DIR}/glm
   ${CMAKE_SOURCE_DIR}/SDL2Auxiliary
+
 )
 
 add_executable(DH2323SkeletonSDL2
-  SkeletonSDL2.cpp
+  Main.cpp
   ${CMAKE_SOURCE_DIR}/SDL2Auxiliary/SDL2Auxiliary.cpp
 )
 

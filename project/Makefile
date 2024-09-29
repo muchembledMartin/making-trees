@@ -129,6 +129,30 @@ DH2323SkeletonSDL2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/build
 .PHONY : DH2323SkeletonSDL2/fast
 
+Main.o: Main.cpp.o
+.PHONY : Main.o
+
+# target to build an object file
+Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o
+.PHONY : Main.cpp.o
+
+Main.i: Main.cpp.i
+.PHONY : Main.i
+
+# target to preprocess a source file
+Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.i
+.PHONY : Main.cpp.i
+
+Main.s: Main.cpp.s
+.PHONY : Main.s
+
+# target to generate assembly for a file
+Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.s
+.PHONY : Main.cpp.s
+
 SDL2Auxiliary/SDL2Auxiliary.o: SDL2Auxiliary/SDL2Auxiliary.cpp.o
 .PHONY : SDL2Auxiliary/SDL2Auxiliary.o
 
@@ -153,30 +177,6 @@ SDL2Auxiliary/SDL2Auxiliary.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.s
 .PHONY : SDL2Auxiliary/SDL2Auxiliary.cpp.s
 
-SkeletonSDL2.o: SkeletonSDL2.cpp.o
-.PHONY : SkeletonSDL2.o
-
-# target to build an object file
-SkeletonSDL2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o
-.PHONY : SkeletonSDL2.cpp.o
-
-SkeletonSDL2.i: SkeletonSDL2.cpp.i
-.PHONY : SkeletonSDL2.i
-
-# target to preprocess a source file
-SkeletonSDL2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.i
-.PHONY : SkeletonSDL2.cpp.i
-
-SkeletonSDL2.s: SkeletonSDL2.cpp.s
-.PHONY : SkeletonSDL2.s
-
-# target to generate assembly for a file
-SkeletonSDL2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DH2323SkeletonSDL2.dir/build.make CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.s
-.PHONY : SkeletonSDL2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DH2323SkeletonSDL2"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
 	@echo "... SDL2Auxiliary/SDL2Auxiliary.o"
 	@echo "... SDL2Auxiliary/SDL2Auxiliary.i"
 	@echo "... SDL2Auxiliary/SDL2Auxiliary.s"
-	@echo "... SkeletonSDL2.o"
-	@echo "... SkeletonSDL2.i"
-	@echo "... SkeletonSDL2.s"
 .PHONY : help
 
 

@@ -53,6 +53,8 @@ const glm::vec3 green(0.f,1.f,0.f);
 const glm::vec3 cyan(0.f,1.f,1.f);
 const glm::vec3 yellow(1.f,1.f,0.f);
 const glm::vec3 magenta(1.f,0.f,1.f);
+const glm::vec3 black(0.f,0.f,0.f);
+
 
 std::ostream& operator<<(std::ostream& stream, glm::vec3 v){
    return stream << "(" << v.x << ", " << v.y << ", " << v.z << ") ";
@@ -61,5 +63,14 @@ std::ostream& operator<<(std::ostream& stream, glm::vec3 v){
 std::ostream& operator<<(std::ostream& stream, glm::ivec2 iv2){
    return stream << "(" << iv2.x << ", " << iv2.y << ") ";
 }
+
+std::ostream& operator<<(std::ostream& stream, glm::ivec3 v){
+   return stream << "(" << v.x << ", " << v.y << ", " << v.z << ") ";
+}
+
+glm::vec3 computeNormal(const glm::vec3& v1, const glm::vec3& v2, const glm::vec3& v3){
+   return glm::cross(glm::normalize(v2-v1), glm::normalize(v3-v1)); 
+}
+
 
 #endif

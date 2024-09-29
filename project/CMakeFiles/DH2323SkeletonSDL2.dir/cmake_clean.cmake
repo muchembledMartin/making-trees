@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o"
+  "CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o.d"
   "CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o"
   "CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o.d"
-  "CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o"
-  "CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o.d"
   "DH2323SkeletonSDL2"
   "DH2323SkeletonSDL2.pdb"
 )

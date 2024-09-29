@@ -69,19 +69,19 @@ include CMakeFiles/DH2323SkeletonSDL2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DH2323SkeletonSDL2.dir/flags.make
 
-CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o: CMakeFiles/DH2323SkeletonSDL2.dir/flags.make
-CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o: ../SkeletonSDL2.cpp
-CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o: CMakeFiles/DH2323SkeletonSDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/martin/Documents/cours/BA6/making-trees/project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o -MF CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o.d -o CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o -c /home/martin/Documents/cours/BA6/making-trees/SkeletonSDL2.cpp
+CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o: CMakeFiles/DH2323SkeletonSDL2.dir/flags.make
+CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o: ../Main.cpp
+CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o: CMakeFiles/DH2323SkeletonSDL2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/martin/Documents/cours/BA6/making-trees/project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o -MF CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o.d -o CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o -c /home/martin/Documents/cours/BA6/making-trees/Main.cpp
 
-CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/martin/Documents/cours/BA6/making-trees/SkeletonSDL2.cpp > CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.i
+CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/martin/Documents/cours/BA6/making-trees/Main.cpp > CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.i
 
-CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/martin/Documents/cours/BA6/making-trees/SkeletonSDL2.cpp -o CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.s
+CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/martin/Documents/cours/BA6/making-trees/Main.cpp -o CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.s
 
 CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o: CMakeFiles/DH2323SkeletonSDL2.dir/flags.make
 CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o: ../SDL2Auxiliary/SDL2Auxiliary.cpp
@@ -99,13 +99,13 @@ CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.s: cmake_force
 
 # Object files for target DH2323SkeletonSDL2
 DH2323SkeletonSDL2_OBJECTS = \
-"CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o" \
+"CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o" \
 "CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o"
 
 # External object files for target DH2323SkeletonSDL2
 DH2323SkeletonSDL2_EXTERNAL_OBJECTS =
 
-DH2323SkeletonSDL2: CMakeFiles/DH2323SkeletonSDL2.dir/SkeletonSDL2.cpp.o
+DH2323SkeletonSDL2: CMakeFiles/DH2323SkeletonSDL2.dir/Main.cpp.o
 DH2323SkeletonSDL2: CMakeFiles/DH2323SkeletonSDL2.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o
 DH2323SkeletonSDL2: CMakeFiles/DH2323SkeletonSDL2.dir/build.make
 DH2323SkeletonSDL2: /usr/local/lib/libSDL2.so
