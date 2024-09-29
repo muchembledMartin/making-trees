@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -Wall -rdynamic CMakeFiles/Main.dir/Main.cpp.o CMakeFiles/Main.dir/SDL2Auxiliary/SDL2Auxiliary.cpp.o -o Main  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL2.so /usr/local/lib/libSDL2main.a 
