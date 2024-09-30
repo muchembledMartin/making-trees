@@ -103,6 +103,9 @@ Now that most of the part of the project are done, I have to write a user guide 
 
 Added the possibility to build a tree with a trunk. More parameters... 
 
+![generationStep1](pictures/generationStep1)
+
+
 ##### Step 8 : Pictures galeria
 
 
