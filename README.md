@@ -26,7 +26,7 @@ Only two libraries are used, SDL2 and glm, the build steps are the same as for t
 ### How to use
 
 Change the parameters you want in the code using tree.setCustomConfig or use one of the example configs.
-Build and execute the file ___. This will open a window where you can rotate around the generated tree. 
+Build and execute the file MakingTrees. This will open a window where you can rotate around the generated tree. 
 
 #### Controls 
 

@@ -45,7 +45,8 @@ bool isNumpadEnabled = true;
 bool monochromatic = false; // if false, show the generations steps in different colors
 bool showTimeBetweenFrame = false; 
 float monochromaticDebouncer;
-float stepToShowDebounder;
+float stepToShowDebouncer;
+float numpadEnableDebouncer;
 
 int main( int argc, char* argv[] ){
 
@@ -90,15 +91,15 @@ void update(){
       camera.moveRightConstrained();
    }
    if(keystate[SDL_SCANCODE_UP]){
-      if(SDL_GetTicks() - stepToShowDebounder > 100 and stepsToShow < treeMeshes.size()){
+      if(SDL_GetTicks() - stepToShowDebouncer > 100 and stepsToShow < treeMeshes.size()){
          stepsToShow++;
-         stepToShowDebounder = SDL_GetTicks();
+         stepToShowDebouncer = SDL_GetTicks();
       } 
    }
    if(keystate[SDL_SCANCODE_DOWN]){
-      if(SDL_GetTicks() - stepToShowDebounder > 100 and stepsToShow > 0){
+      if(SDL_GetTicks() - stepToShowDebouncer > 100 and stepsToShow > 0){
          stepsToShow--;
-         stepToShowDebounder = SDL_GetTicks();
+         stepToShowDebouncer = SDL_GetTicks();
       }
    }
    if(keystate[SDL_SCANCODE_C]){
@@ -108,7 +109,10 @@ void update(){
       }
    }
    if(keystate[SDL_SCANCODE_N]){
-      isNumpadEnabled = !isNumpadEnabled;
+      if(SDL_GetTicks() - numpadEnableDebouncer > 100){
+         isNumpadEnabled = !isNumpadEnabled;
+         numpadEnableDebouncer = SDL_GetTicks();
+      }
    }
    if(keystate[SDL_SCANCODE_F]){
       showTimeBetweenFrame = !showTimeBetweenFrame;
