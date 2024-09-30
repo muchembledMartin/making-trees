@@ -108,6 +108,7 @@ Added the possibility to build a tree with a trunk. More parameters...
 ![generationStep5](pictures/generationStep5.png)
 ![InflatedVolume](pictures/InflatedVolume.png)
 ![SomeOtherTree](pictures/SomeOtherTree.png)
+![OneOfTheFirstTrees](pictures/OneOfTheFirstTrees.png)
 
 
 
